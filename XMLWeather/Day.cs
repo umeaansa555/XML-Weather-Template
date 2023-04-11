@@ -10,7 +10,7 @@ namespace XMLWeather
         public string date, currentTemp, currentTime, condition, location, tempHigh, tempLow, 
             windSpeed, windDirection, precipitation, visibility;
 
-        public Day()
+        public Day() //build an empty constructor
         {
             date = currentTemp = currentTime = condition = location = tempHigh = tempLow
                 = windSpeed = windDirection = precipitation = visibility = "";
