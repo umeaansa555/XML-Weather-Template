@@ -46,7 +46,7 @@ namespace XMLWeather
                 d.tempHigh = reader.GetAttribute("max");
 
 
-                //if day object not null (<= 7) add to the days list
+                //if day object not null (over 7 days) add to the days list
 
                 if (d.date != null)
                 {
