@@ -11,6 +11,7 @@ namespace XMLWeather
 {
     public partial class CurrentScreen : UserControl
     {
+        
         public CurrentScreen()
         {
             InitializeComponent();
@@ -19,8 +20,11 @@ namespace XMLWeather
 
         public void DisplayCurrent()
         {
-            cityOutput.Text += $" {Form1.days[0].location}";
-            currentOutput.Text = Form1.days[0].currentTemp;
+            cityOutput.Text += $": {Form1.days[0].location}";
+            double rounded = Convert.ToDouble(Form1.days[0].currentTemp);
+            currentOutput.Text = Math.Round(rounded); // its not working yet
+            minOutput.Text = Form1.days[0].tempLow;
+            maxOutput.Text = Form1.days[0].tempHigh;
             //etc.
         }
 

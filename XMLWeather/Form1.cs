@@ -41,6 +41,12 @@ namespace XMLWeather
                 reader.ReadToFollowing("time");
                 d.date = reader.GetAttribute("day"); // <-- get a specific attribute (day) from a element tag (time) and put it in my variable (date)
 
+                reader.ReadToFollowing("symbol");
+                reader.GetAttribute("name");
+                reader.GetAttribute("var");
+
+
+
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
                 d.tempHigh = reader.GetAttribute("max");
