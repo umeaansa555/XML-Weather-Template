@@ -31,7 +31,7 @@ namespace XMLWeather
             //etc.
         }
 
-        public string Truncate(string input)
+        public static string Truncate(string input)
         {
             double truncated = Math.Truncate(Convert.ToDouble(input));
             string result = Convert.ToString(truncated);

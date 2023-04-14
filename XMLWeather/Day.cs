@@ -8,12 +8,14 @@ namespace XMLWeather
     public class Day
     {
         public string date, currentTemp, currentTime, condition, location, tempHigh, tempLow, 
-            windSpeed, windDirection, precipitation, visibility;
+            windSpeed, windDirection, precipitation, visibility,
+            icon;
+
 
         public Day() //build an empty constructor
         {
             date = currentTemp = currentTime = condition = location = tempHigh = tempLow
-                = windSpeed = windDirection = precipitation = visibility = "";
+                = windSpeed = windDirection = precipitation = visibility =  icon = "";
         }
     }
 }

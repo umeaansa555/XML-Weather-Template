@@ -42,8 +42,8 @@ namespace XMLWeather
                 d.date = reader.GetAttribute("day"); // <-- get a specific attribute (day) from a element tag (time) and put it in my variable (date)
 
                 reader.ReadToFollowing("symbol");
-                reader.GetAttribute("name");
-                reader.GetAttribute("var");
+                d.condition = reader.GetAttribute("name");
+                d.icon = reader.GetAttribute("var");
 
 
 
