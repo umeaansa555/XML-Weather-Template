@@ -21,11 +21,22 @@ namespace XMLWeather
         public void DisplayCurrent()
         {
             cityOutput.Text += $": {Form1.days[0].location}";
-            double rounded = Convert.ToDouble(Form1.days[0].currentTemp);
-            currentOutput.Text = Math.Round(rounded); // its not working yet
-            minOutput.Text = Form1.days[0].tempLow;
-            maxOutput.Text = Form1.days[0].tempHigh;
+            // double rounded = Convert.ToDouble(Form1.days[0].currentTemp);
+            // currentOutput.Text = Math.Round(rounded); // its not working yet
+
+            //currentOutput.Text = $"{Math.Truncate(Convert.ToDouble(Form1.days[0].currentTemp))}";
+            currentOutput.Text = Truncate(Form1.days[0].currentTemp);
+            minOutput.Text = Truncate(Form1.days[0].tempLow);
+            maxOutput.Text = Truncate(Form1.days[0].tempHigh);
             //etc.
+        }
+
+        public string Truncate(string input)
+        {
+            double truncated = Math.Truncate(Convert.ToDouble(input));
+            string result = Convert.ToString(truncated);
+
+            return result;
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)
