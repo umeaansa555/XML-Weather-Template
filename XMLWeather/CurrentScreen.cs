@@ -21,7 +21,9 @@ namespace XMLWeather
         public void DisplayCurrent()
         {
             cityOutput.Text = Form1.days[0].location;
-            
+
+            dateLabel.Text = $"{DateTime.Now.ToString("dddd")}, {DateTime.Now.ToString("MMM dd")}";
+
             currentOutput.Text = Truncate(Form1.days[0].currentTemp);
             minOutput.Text = Truncate(Form1.days[0].tempLow);
             maxOutput.Text = Truncate(Form1.days[0].tempHigh);
