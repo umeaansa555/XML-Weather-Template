@@ -103,6 +103,57 @@
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\01d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\01n%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\02d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\02n%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\03d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\03n%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\04d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\04n%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\09d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\09n%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\10d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\11d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\11n%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\13d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\13n%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\50d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weathericons\50n%402x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

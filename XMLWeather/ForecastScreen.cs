@@ -21,13 +21,23 @@ namespace XMLWeather
         {
             //  start at tomorrow's forecast [1]
             date1.Text = Form1.days[1].date;
+            conditions1.Text = Form1.days[1].condition;
             max1.Text = CurrentScreen.Truncate(Form1.days[1].tempHigh);
             min1.Text = CurrentScreen.Truncate(Form1.days[1].tempLow);
-            //symbolIcon1.Image = (Form1.days[1].icon); //find icon img url and set it to picturebox src
+
+          // Image image = Image.FromFile("https://openweathermap.org/img/wn/10d@2x.png");
+          //  symbolIcon1.Image = image; //+ (Form1.days[1].icon)}; //find icon img url and set it to picturebox src
+
 
             date2.Text = Form1.days[2].date;
+            conditions2.Text = Form1.days[2].condition;
             max2.Text = CurrentScreen.Truncate(Form1.days[2].tempHigh);
             min2.Text = CurrentScreen.Truncate(Form1.days[2].tempLow);
+
+            date3.Text = Form1.days[3].date;
+            conditions3.Text = Form1.days[2].condition;
+            max3.Text = CurrentScreen.Truncate(Form1.days[3].tempHigh);
+            min3.Text = CurrentScreen.Truncate(Form1.days[3].tempLow);
 
         }
 

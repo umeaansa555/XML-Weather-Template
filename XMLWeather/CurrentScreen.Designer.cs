@@ -95,10 +95,10 @@
             // 
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(174, 167);
+            this.currentOutput.Location = new System.Drawing.Point(174, 78);
             this.currentOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currentOutput.Name = "currentOutput";
-            this.currentOutput.Size = new System.Drawing.Size(72, 16);
+            this.currentOutput.Size = new System.Drawing.Size(124, 105);
             this.currentOutput.TabIndex = 28;
             // 
             // tempLabel
@@ -164,7 +164,7 @@
             this.Controls.Add(this.currentOutput);
             this.Controls.Add(this.tempLabel);
             this.Controls.Add(this.label5);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(333, 492);
             this.ResumeLayout(false);
