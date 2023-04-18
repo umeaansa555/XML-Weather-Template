@@ -16,6 +16,10 @@ namespace XMLWeather
         {
             InitializeComponent();
             DisplayCurrent();
+
+            cityOutput.Parent = dateLabel.Parent = currentOutput.Parent = minLabel.Parent = maxLabel.Parent
+                = minOutput.Parent  = maxOutput.Parent = conditionLabel.Parent = degreesLabel.Parent =
+                todayTab.Parent = tabMarker.Parent = forecastLabel.Parent = backImage;
         }
 
         public void DisplayCurrent()
@@ -27,6 +31,7 @@ namespace XMLWeather
             currentOutput.Text = Truncate(Form1.days[0].currentTemp);
             minOutput.Text = Truncate(Form1.days[0].tempLow);
             maxOutput.Text = Truncate(Form1.days[0].tempHigh);
+            conditionLabel.Text = Form1.days[0].condition;
             //etc.
         }
 
