@@ -36,7 +36,7 @@ namespace XMLWeather
             min2.Text = CurrentScreen.Truncate(Form1.days[2].tempLow);
 
             date3.Text = $"{DateTime.Now.AddDays(3).ToString("dddd")}, {DateTime.Now.AddDays(3).ToString("MMM dd")}";
-            conditions3.Text = Form1.days[2].condition;
+            conditions3.Text = Form1.days[3].condition;
             max3.Text = CurrentScreen.Truncate(Form1.days[3].tempHigh);
             min3.Text = CurrentScreen.Truncate(Form1.days[3].tempLow);
 
