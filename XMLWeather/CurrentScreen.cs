@@ -17,9 +17,11 @@ namespace XMLWeather
             InitializeComponent();
             DisplayCurrent();
 
-            cityOutput.Parent = dateLabel.Parent = currentOutput.Parent = minLabel.Parent = maxLabel.Parent
+            /* cityOutput.Parent = dateLabel.Parent = currentOutput.Parent = minLabel.Parent = maxLabel.Parent
                 = minOutput.Parent  = maxOutput.Parent = conditionLabel.Parent = degreesLabel.Parent =
-                todayTab.Parent = tabMarker.Parent = forecastLabel.Parent = backImage;
+                todayTab.Parent = tabMarker.Parent = forecastLabel.Parent = backImage; */
+
+
         }
 
         public void DisplayCurrent()

@@ -154,6 +154,9 @@
   <ItemGroup>
     <None Include="Resources\weathericons\50n%402x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft-Fluentui-Emoji-3d-Star-3d.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

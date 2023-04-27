@@ -52,7 +52,7 @@
             this.cityOutput.Location = new System.Drawing.Point(172, 331);
             this.cityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(138, 95);
+            this.cityOutput.Size = new System.Drawing.Size(142, 95);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             // 
@@ -60,12 +60,12 @@
             // 
             this.maxOutput.AutoSize = true;
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
-            this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(105, 437);
+            this.maxOutput.Location = new System.Drawing.Point(119, 436);
             this.maxOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxOutput.Name = "maxOutput";
-            this.maxOutput.Size = new System.Drawing.Size(43, 46);
+            this.maxOutput.Size = new System.Drawing.Size(33, 36);
             this.maxOutput.TabIndex = 32;
             this.maxOutput.Text = "0";
             // 
@@ -73,25 +73,26 @@
             // 
             this.maxLabel.AutoSize = true;
             this.maxLabel.BackColor = System.Drawing.Color.Transparent;
-            this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(16, 437);
+            this.maxLabel.Location = new System.Drawing.Point(30, 436);
             this.maxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(81, 36);
+            this.maxLabel.Size = new System.Drawing.Size(67, 29);
             this.maxLabel.TabIndex = 31;
             this.maxLabel.Text = "High";
+            this.maxLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // minOutput
             // 
             this.minOutput.AutoSize = true;
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
-            this.minOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(259, 437);
+            this.minOutput.Location = new System.Drawing.Point(270, 436);
             this.minOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minOutput.Name = "minOutput";
-            this.minOutput.Size = new System.Drawing.Size(43, 46);
+            this.minOutput.Size = new System.Drawing.Size(33, 36);
             this.minOutput.TabIndex = 30;
             this.minOutput.Text = "0";
             // 
@@ -99,14 +100,15 @@
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.BackColor = System.Drawing.Color.Transparent;
-            this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(170, 437);
+            this.minLabel.Location = new System.Drawing.Point(188, 436);
             this.minLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(74, 36);
+            this.minLabel.Size = new System.Drawing.Size(61, 29);
             this.minLabel.TabIndex = 29;
             this.minLabel.Text = "Low";
+            this.minLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // currentOutput
             // 
@@ -163,26 +165,26 @@
             // dateLabel
             // 
             this.dateLabel.BackColor = System.Drawing.Color.Transparent;
-            this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateLabel.ForeColor = System.Drawing.Color.White;
-            this.dateLabel.Location = new System.Drawing.Point(26, 331);
+            this.dateLabel.Location = new System.Drawing.Point(22, 331);
             this.dateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(138, 95);
+            this.dateLabel.Size = new System.Drawing.Size(142, 95);
             this.dateLabel.TabIndex = 43;
             this.dateLabel.Text = "Date";
             // 
             // conditionLabel
             // 
             this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.conditionLabel.ForeColor = System.Drawing.Color.White;
-            this.conditionLabel.Location = new System.Drawing.Point(108, 258);
+            this.conditionLabel.Location = new System.Drawing.Point(34, 258);
             this.conditionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.conditionLabel.Name = "conditionLabel";
-            this.conditionLabel.Size = new System.Drawing.Size(125, 52);
+            this.conditionLabel.Size = new System.Drawing.Size(264, 52);
             this.conditionLabel.TabIndex = 45;
-            this.conditionLabel.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.conditionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // backImage
             // 
@@ -195,6 +197,7 @@
             this.backImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.backImage.TabIndex = 46;
             this.backImage.TabStop = false;
+            this.backImage.Visible = false;
             // 
             // degreesLabel
             // 
