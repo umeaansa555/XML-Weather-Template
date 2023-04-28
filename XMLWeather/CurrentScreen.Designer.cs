@@ -197,7 +197,6 @@
             this.backImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.backImage.TabIndex = 46;
             this.backImage.TabStop = false;
-            this.backImage.Visible = false;
             // 
             // degreesLabel
             // 

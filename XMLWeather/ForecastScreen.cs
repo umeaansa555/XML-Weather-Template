@@ -24,11 +24,6 @@ namespace XMLWeather
             conditions1.Text = Form1.days[1].condition;
             max1.Text = CurrentScreen.Truncate(Form1.days[1].tempHigh);
             min1.Text = CurrentScreen.Truncate(Form1.days[1].tempLow);
-
-          // Image image = Image.FromFile("https://openweathermap.org/img/wn/10d@2x.png");
-          //  symbolIcon1.Image = image; //+ (Form1.days[1].icon)}; //find icon img url and set it to picturebox src
-
-
             
             date2.Text = $"{DateTime.Now.AddDays(2).ToString("dddd")}, {DateTime.Now.AddDays(2).ToString("MMM dd")}";          //date2.Text = Form1.days[2].date;
             conditions2.Text = Form1.days[2].condition;

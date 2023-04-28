@@ -45,8 +45,6 @@ namespace XMLWeather
                 d.condition = reader.GetAttribute("name");
                 d.icon = reader.GetAttribute("var");
 
-
-
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
                 d.tempHigh = reader.GetAttribute("max");
@@ -74,7 +72,5 @@ namespace XMLWeather
             days[0].currentTemp = reader.GetAttribute("value");
 
         }
-
-
     }
 }

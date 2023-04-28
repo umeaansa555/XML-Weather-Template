@@ -17,14 +17,14 @@ namespace XMLWeather
             InitializeComponent();
             DisplayCurrent();
 
-            /* cityOutput.Parent = dateLabel.Parent = currentOutput.Parent = minLabel.Parent = maxLabel.Parent
+             cityOutput.Parent = dateLabel.Parent = currentOutput.Parent = minLabel.Parent = maxLabel.Parent
                 = minOutput.Parent  = maxOutput.Parent = conditionLabel.Parent = degreesLabel.Parent =
-                todayTab.Parent = tabMarker.Parent = forecastLabel.Parent = backImage; */
+                todayTab.Parent = tabMarker.Parent = forecastLabel.Parent = backImage; // fix text transparencies
 
 
         }
 
-        public void DisplayCurrent()
+        public void DisplayCurrent() // show current date and relevant info
         {
             cityOutput.Text = Form1.days[0].location;
 
@@ -34,12 +34,10 @@ namespace XMLWeather
             minOutput.Text = Truncate(Form1.days[0].tempLow);
             maxOutput.Text = Truncate(Form1.days[0].tempHigh);
             conditionLabel.Text = Form1.days[0].condition;
-            //etc.
         }
 
-        public static string Truncate(string input)
+        public static string Truncate(string input) //round temperatures to whole numbers
         {
-            //currentOutput.Text = $"{Math.Truncate(Convert.ToDouble(Form1.days[0].currentTemp))}";
             double truncated = Math.Truncate(Convert.ToDouble(input));
             string result = Convert.ToString(truncated);
 
