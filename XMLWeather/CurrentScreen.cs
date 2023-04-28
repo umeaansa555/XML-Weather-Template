@@ -52,5 +52,14 @@ namespace XMLWeather
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
         }
+
+        private void searchTabLabel_Click(object sender, EventArgs e)
+        {
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
+            ForecastScreen fs = new ForecastScreen();
+            f.Controls.Add(fs);
+        }
     }
 }

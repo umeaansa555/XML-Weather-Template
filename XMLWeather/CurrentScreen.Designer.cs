@@ -41,6 +41,7 @@
             this.conditionLabel = new System.Windows.Forms.Label();
             this.backImage = new System.Windows.Forms.PictureBox();
             this.degreesLabel = new System.Windows.Forms.Label();
+            this.searchTabLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.backImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -211,11 +212,25 @@
             this.degreesLabel.TabIndex = 47;
             this.degreesLabel.Text = "°C";
             // 
+            // searchTabLabel
+            // 
+            this.searchTabLabel.BackColor = System.Drawing.Color.Transparent;
+            this.searchTabLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchTabLabel.ForeColor = System.Drawing.Color.White;
+            this.searchTabLabel.Location = new System.Drawing.Point(153, 64);
+            this.searchTabLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.searchTabLabel.Name = "searchTabLabel";
+            this.searchTabLabel.Size = new System.Drawing.Size(161, 34);
+            this.searchTabLabel.TabIndex = 48;
+            this.searchTabLabel.Text = "City Search";
+            this.searchTabLabel.Click += new System.EventHandler(this.searchTabLabel_Click);
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.searchTabLabel);
             this.Controls.Add(this.degreesLabel);
             this.Controls.Add(this.conditionLabel);
             this.Controls.Add(this.dateLabel);
@@ -252,5 +267,6 @@
         private System.Windows.Forms.Label conditionLabel;
         private System.Windows.Forms.PictureBox backImage;
         private System.Windows.Forms.Label degreesLabel;
+        private System.Windows.Forms.Label searchTabLabel;
     }
 }
