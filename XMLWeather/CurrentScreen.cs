@@ -58,7 +58,7 @@ namespace XMLWeather
             Form f = this.FindForm();
             f.Controls.Remove(this);
 
-            ForecastScreen fs = new ForecastScreen();
+            SearchScreen fs = new SearchScreen();
             f.Controls.Add(fs);
         }
     }

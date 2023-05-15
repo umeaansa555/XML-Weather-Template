@@ -217,10 +217,10 @@
             this.searchTabLabel.BackColor = System.Drawing.Color.Transparent;
             this.searchTabLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchTabLabel.ForeColor = System.Drawing.Color.White;
-            this.searchTabLabel.Location = new System.Drawing.Point(153, 64);
+            this.searchTabLabel.Location = new System.Drawing.Point(125, 64);
             this.searchTabLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.searchTabLabel.Name = "searchTabLabel";
-            this.searchTabLabel.Size = new System.Drawing.Size(161, 34);
+            this.searchTabLabel.Size = new System.Drawing.Size(189, 34);
             this.searchTabLabel.TabIndex = 48;
             this.searchTabLabel.Text = "City Search";
             this.searchTabLabel.Click += new System.EventHandler(this.searchTabLabel_Click);

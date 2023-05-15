@@ -16,5 +16,10 @@ namespace XMLWeather
         {
             InitializeComponent();
         }
+
+        private void searchTabLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
