@@ -19,7 +19,7 @@ namespace XMLWeather
 
              cityOutput.Parent = dateLabel.Parent = currentOutput.Parent = minLabel.Parent = maxLabel.Parent
                 = minOutput.Parent  = maxOutput.Parent = conditionLabel.Parent = degreesLabel.Parent =
-                todayTab.Parent = tabMarker.Parent = forecastLabel.Parent = backImage; // fix text transparencies
+                todayTab.Parent = tabMarker.Parent = forecastTab.Parent = searchTab.Parent = backImage; // fix text transparencies
 
 
         }

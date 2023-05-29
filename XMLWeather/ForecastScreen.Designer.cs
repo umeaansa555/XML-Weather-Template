@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.forecastLabel = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.forecastTab = new System.Windows.Forms.Label();
+            this.todayTab = new System.Windows.Forms.Label();
             this.min1 = new System.Windows.Forms.Label();
             this.minLabel1 = new System.Windows.Forms.Label();
             this.max1 = new System.Windows.Forms.Label();
@@ -50,37 +50,40 @@
             this.conditions1 = new System.Windows.Forms.Label();
             this.conditions2 = new System.Windows.Forms.Label();
             this.conditions3 = new System.Windows.Forms.Label();
+            this.backImage = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.symbolIcon1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backImage)).BeginInit();
             this.SuspendLayout();
             // 
-            // forecastLabel
+            // forecastTab
             // 
-            this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
-            this.forecastLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.White;
-            this.forecastLabel.Location = new System.Drawing.Point(189, 17);
-            this.forecastLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.forecastLabel.Name = "forecastLabel";
-            this.forecastLabel.Size = new System.Drawing.Size(110, 34);
-            this.forecastLabel.TabIndex = 62;
-            this.forecastLabel.Text = "7 Day";
+            this.forecastTab.BackColor = System.Drawing.Color.Transparent;
+            this.forecastTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastTab.ForeColor = System.Drawing.Color.White;
+            this.forecastTab.Location = new System.Drawing.Point(189, 17);
+            this.forecastTab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.forecastTab.Name = "forecastTab";
+            this.forecastTab.Size = new System.Drawing.Size(110, 34);
+            this.forecastTab.TabIndex = 62;
+            this.forecastTab.Text = "7 Day";
             // 
-            // label3
+            // todayTab
             // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(29, 17);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 34);
-            this.label3.TabIndex = 61;
-            this.label3.Text = "Today";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.todayTab.BackColor = System.Drawing.Color.Transparent;
+            this.todayTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.todayTab.ForeColor = System.Drawing.Color.White;
+            this.todayTab.Location = new System.Drawing.Point(29, 17);
+            this.todayTab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.todayTab.Name = "todayTab";
+            this.todayTab.Size = new System.Drawing.Size(110, 34);
+            this.todayTab.TabIndex = 61;
+            this.todayTab.Text = "Today";
+            this.todayTab.Click += new System.EventHandler(this.label3_Click);
             // 
             // min1
             // 
             this.min1.BackColor = System.Drawing.Color.Transparent;
+            this.min1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min1.ForeColor = System.Drawing.Color.White;
             this.min1.Location = new System.Drawing.Point(171, 168);
             this.min1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -103,6 +106,7 @@
             // max1
             // 
             this.max1.BackColor = System.Drawing.Color.Transparent;
+            this.max1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max1.ForeColor = System.Drawing.Color.White;
             this.max1.Location = new System.Drawing.Point(171, 132);
             this.max1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -124,6 +128,7 @@
             // 
             // label5
             // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(172, 30);
@@ -161,6 +166,7 @@
             // min2
             // 
             this.min2.BackColor = System.Drawing.Color.Transparent;
+            this.min2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min2.ForeColor = System.Drawing.Color.White;
             this.min2.Location = new System.Drawing.Point(171, 301);
             this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -183,6 +189,7 @@
             // max2
             // 
             this.max2.BackColor = System.Drawing.Color.Transparent;
+            this.max2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max2.ForeColor = System.Drawing.Color.White;
             this.max2.Location = new System.Drawing.Point(171, 265);
             this.max2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -217,6 +224,7 @@
             // min3
             // 
             this.min3.BackColor = System.Drawing.Color.Transparent;
+            this.min3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min3.ForeColor = System.Drawing.Color.White;
             this.min3.Location = new System.Drawing.Point(172, 425);
             this.min3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -239,6 +247,7 @@
             // max3
             // 
             this.max3.BackColor = System.Drawing.Color.Transparent;
+            this.max3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max3.ForeColor = System.Drawing.Color.White;
             this.max3.Location = new System.Drawing.Point(172, 389);
             this.max3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -300,11 +309,24 @@
             this.conditions3.Size = new System.Drawing.Size(0, 16);
             this.conditions3.TabIndex = 78;
             // 
+            // backImage
+            // 
+            this.backImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.backImage.Image = global::XMLWeather.Properties.Resources.Rain3;
+            this.backImage.Location = new System.Drawing.Point(0, 0);
+            this.backImage.Margin = new System.Windows.Forms.Padding(0);
+            this.backImage.Name = "backImage";
+            this.backImage.Size = new System.Drawing.Size(333, 492);
+            this.backImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backImage.TabIndex = 79;
+            this.backImage.TabStop = false;
+            // 
             // ForecastScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.conditions3);
             this.Controls.Add(this.conditions2);
             this.Controls.Add(this.conditions1);
@@ -320,17 +342,19 @@
             this.Controls.Add(this.max2);
             this.Controls.Add(this.maxLabel2);
             this.Controls.Add(this.date1);
-            this.Controls.Add(this.forecastLabel);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.forecastTab);
+            this.Controls.Add(this.todayTab);
             this.Controls.Add(this.min1);
             this.Controls.Add(this.minLabel1);
             this.Controls.Add(this.max1);
             this.Controls.Add(this.maxLabel1);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.backImage);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ForecastScreen";
             this.Size = new System.Drawing.Size(333, 492);
             ((System.ComponentModel.ISupportInitialize)(this.symbolIcon1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -338,8 +362,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label forecastLabel;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label forecastTab;
+        private System.Windows.Forms.Label todayTab;
         private System.Windows.Forms.Label min1;
         private System.Windows.Forms.Label minLabel1;
         private System.Windows.Forms.Label max1;
@@ -360,5 +384,6 @@
         private System.Windows.Forms.Label conditions1;
         private System.Windows.Forms.Label conditions2;
         private System.Windows.Forms.Label conditions3;
+        private System.Windows.Forms.PictureBox backImage;
     }
 }

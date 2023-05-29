@@ -35,13 +35,13 @@
             this.minLabel = new System.Windows.Forms.Label();
             this.currentOutput = new System.Windows.Forms.Label();
             this.todayTab = new System.Windows.Forms.Label();
-            this.forecastLabel = new System.Windows.Forms.Label();
+            this.forecastTab = new System.Windows.Forms.Label();
             this.tabMarker = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
             this.conditionLabel = new System.Windows.Forms.Label();
             this.backImage = new System.Windows.Forms.PictureBox();
             this.degreesLabel = new System.Windows.Forms.Label();
-            this.searchTabLabel = new System.Windows.Forms.Label();
+            this.searchTab = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.backImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,18 +136,18 @@
             this.todayTab.TabIndex = 40;
             this.todayTab.Text = "Today          ";
             // 
-            // forecastLabel
+            // forecastTab
             // 
-            this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
-            this.forecastLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.White;
-            this.forecastLabel.Location = new System.Drawing.Point(188, 18);
-            this.forecastLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.forecastLabel.Name = "forecastLabel";
-            this.forecastLabel.Size = new System.Drawing.Size(110, 34);
-            this.forecastLabel.TabIndex = 41;
-            this.forecastLabel.Text = "7 Day";
-            this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
+            this.forecastTab.BackColor = System.Drawing.Color.Transparent;
+            this.forecastTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastTab.ForeColor = System.Drawing.Color.White;
+            this.forecastTab.Location = new System.Drawing.Point(188, 18);
+            this.forecastTab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.forecastTab.Name = "forecastTab";
+            this.forecastTab.Size = new System.Drawing.Size(110, 34);
+            this.forecastTab.TabIndex = 41;
+            this.forecastTab.Text = "7 Day";
+            this.forecastTab.Click += new System.EventHandler(this.forecastLabel_Click);
             // 
             // tabMarker
             // 
@@ -212,29 +212,29 @@
             this.degreesLabel.TabIndex = 47;
             this.degreesLabel.Text = "°C";
             // 
-            // searchTabLabel
+            // searchTab
             // 
-            this.searchTabLabel.BackColor = System.Drawing.Color.Transparent;
-            this.searchTabLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchTabLabel.ForeColor = System.Drawing.Color.White;
-            this.searchTabLabel.Location = new System.Drawing.Point(125, 64);
-            this.searchTabLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.searchTabLabel.Name = "searchTabLabel";
-            this.searchTabLabel.Size = new System.Drawing.Size(189, 34);
-            this.searchTabLabel.TabIndex = 48;
-            this.searchTabLabel.Text = "City Search";
-            this.searchTabLabel.Click += new System.EventHandler(this.searchTabLabel_Click);
+            this.searchTab.BackColor = System.Drawing.Color.Transparent;
+            this.searchTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchTab.ForeColor = System.Drawing.Color.White;
+            this.searchTab.Location = new System.Drawing.Point(125, 64);
+            this.searchTab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.searchTab.Name = "searchTab";
+            this.searchTab.Size = new System.Drawing.Size(189, 34);
+            this.searchTab.TabIndex = 48;
+            this.searchTab.Text = "City Search";
+            this.searchTab.Click += new System.EventHandler(this.searchTabLabel_Click);
             // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.searchTabLabel);
+            this.Controls.Add(this.searchTab);
             this.Controls.Add(this.degreesLabel);
             this.Controls.Add(this.conditionLabel);
             this.Controls.Add(this.dateLabel);
-            this.Controls.Add(this.forecastLabel);
+            this.Controls.Add(this.forecastTab);
             this.Controls.Add(this.todayTab);
             this.Controls.Add(this.cityOutput);
             this.Controls.Add(this.maxOutput);
@@ -261,12 +261,12 @@
         private System.Windows.Forms.Label minLabel;
         private System.Windows.Forms.Label currentOutput;
         private System.Windows.Forms.Label todayTab;
-        private System.Windows.Forms.Label forecastLabel;
+        private System.Windows.Forms.Label forecastTab;
         private System.Windows.Forms.Label tabMarker;
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.Label conditionLabel;
         private System.Windows.Forms.PictureBox backImage;
         private System.Windows.Forms.Label degreesLabel;
-        private System.Windows.Forms.Label searchTabLabel;
+        private System.Windows.Forms.Label searchTab;
     }
 }

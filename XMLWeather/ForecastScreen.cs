@@ -15,6 +15,12 @@ namespace XMLWeather
         {
             InitializeComponent();
             displayForecast();
+            todayTab.Parent = forecastTab.Parent = label5.Parent = date1.Parent = date2.Parent
+                = date3.Parent = maxLabel1.Parent = maxLabel2.Parent = maxLabel3.Parent =
+                minLabel1.Parent = minLabel2.Parent = minLabel3.Parent = max1.Parent =
+                max2.Parent = max3.Parent = min1.Parent = min2.Parent = min3.Parent =
+                conditions1.Parent = conditions2.Parent = conditions3.Parent = symbolIcon1.Parent = backImage; // fix text transparencies
+
         }
 
         public void displayForecast()

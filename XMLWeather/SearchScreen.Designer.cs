@@ -48,6 +48,7 @@
             this.forecastLabel.Size = new System.Drawing.Size(110, 34);
             this.forecastLabel.TabIndex = 65;
             this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
             // 
             // label3
             // 
@@ -60,6 +61,7 @@
             this.label3.Size = new System.Drawing.Size(110, 34);
             this.label3.TabIndex = 64;
             this.label3.Text = "Today";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label5
             // 
@@ -108,9 +110,9 @@
             // submitCityButton
             // 
             this.submitCityButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitCityButton.Location = new System.Drawing.Point(347, 200);
+            this.submitCityButton.Location = new System.Drawing.Point(347, 196);
             this.submitCityButton.Name = "submitCityButton";
-            this.submitCityButton.Size = new System.Drawing.Size(134, 22);
+            this.submitCityButton.Size = new System.Drawing.Size(134, 31);
             this.submitCityButton.TabIndex = 0;
             this.submitCityButton.Text = "Search";
             this.submitCityButton.UseVisualStyleBackColor = true;
