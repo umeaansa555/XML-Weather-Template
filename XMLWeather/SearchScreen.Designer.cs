@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.forecastLabel = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.forecastTab = new System.Windows.Forms.Label();
+            this.todayTab = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.searchTabLabel = new System.Windows.Forms.Label();
             this.cityInput = new System.Windows.Forms.TextBox();
@@ -37,37 +37,38 @@
             this.submitCityButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // forecastLabel
+            // forecastTab
             // 
-            this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
-            this.forecastLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.White;
-            this.forecastLabel.Location = new System.Drawing.Point(179, 18);
-            this.forecastLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.forecastLabel.Name = "forecastLabel";
-            this.forecastLabel.Size = new System.Drawing.Size(110, 34);
-            this.forecastLabel.TabIndex = 65;
-            this.forecastLabel.Text = "7 Day";
-            this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
+            this.forecastTab.BackColor = System.Drawing.Color.Transparent;
+            this.forecastTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastTab.ForeColor = System.Drawing.Color.White;
+            this.forecastTab.Location = new System.Drawing.Point(179, 18);
+            this.forecastTab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.forecastTab.Name = "forecastTab";
+            this.forecastTab.Size = new System.Drawing.Size(110, 34);
+            this.forecastTab.TabIndex = 65;
+            this.forecastTab.Text = "7 Day";
+            this.forecastTab.Click += new System.EventHandler(this.forecastLabel_Click);
             // 
-            // label3
+            // todayTab
             // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(19, 18);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 34);
-            this.label3.TabIndex = 64;
-            this.label3.Text = "Today";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.todayTab.BackColor = System.Drawing.Color.Transparent;
+            this.todayTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.todayTab.ForeColor = System.Drawing.Color.White;
+            this.todayTab.Location = new System.Drawing.Point(19, 18);
+            this.todayTab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.todayTab.Name = "todayTab";
+            this.todayTab.Size = new System.Drawing.Size(110, 34);
+            this.todayTab.TabIndex = 64;
+            this.todayTab.Text = "Today";
+            this.todayTab.Click += new System.EventHandler(this.label3_Click);
             // 
             // label5
             // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(308, 31);
+            this.label5.Location = new System.Drawing.Point(128, 73);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(153, 33);
@@ -80,7 +81,7 @@
             this.searchTabLabel.BackColor = System.Drawing.Color.Transparent;
             this.searchTabLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchTabLabel.ForeColor = System.Drawing.Color.White;
-            this.searchTabLabel.Location = new System.Drawing.Point(305, 19);
+            this.searchTabLabel.Location = new System.Drawing.Point(125, 61);
             this.searchTabLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.searchTabLabel.Name = "searchTabLabel";
             this.searchTabLabel.Size = new System.Drawing.Size(189, 34);
@@ -89,30 +90,30 @@
             // 
             // cityInput
             // 
-            this.cityInput.Location = new System.Drawing.Point(36, 200);
+            this.cityInput.Location = new System.Drawing.Point(17, 196);
             this.cityInput.Name = "cityInput";
-            this.cityInput.Size = new System.Drawing.Size(305, 22);
+            this.cityInput.Size = new System.Drawing.Size(217, 22);
             this.cityInput.TabIndex = 68;
             // 
             // formatLabel
             // 
             this.formatLabel.AutoSize = true;
             this.formatLabel.BackColor = System.Drawing.Color.Transparent;
-            this.formatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.formatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.formatLabel.ForeColor = System.Drawing.Color.White;
-            this.formatLabel.Location = new System.Drawing.Point(88, 141);
+            this.formatLabel.Location = new System.Drawing.Point(30, 151);
             this.formatLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.formatLabel.Name = "formatLabel";
-            this.formatLabel.Size = new System.Drawing.Size(307, 31);
+            this.formatLabel.Size = new System.Drawing.Size(268, 29);
             this.formatLabel.TabIndex = 69;
             this.formatLabel.Text = "City name, country code";
             // 
             // submitCityButton
             // 
             this.submitCityButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitCityButton.Location = new System.Drawing.Point(347, 196);
+            this.submitCityButton.Location = new System.Drawing.Point(240, 192);
             this.submitCityButton.Name = "submitCityButton";
-            this.submitCityButton.Size = new System.Drawing.Size(134, 31);
+            this.submitCityButton.Size = new System.Drawing.Size(74, 31);
             this.submitCityButton.TabIndex = 0;
             this.submitCityButton.Text = "Search";
             this.submitCityButton.UseVisualStyleBackColor = true;
@@ -126,11 +127,11 @@
             this.Controls.Add(this.formatLabel);
             this.Controls.Add(this.cityInput);
             this.Controls.Add(this.searchTabLabel);
-            this.Controls.Add(this.forecastLabel);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.forecastTab);
+            this.Controls.Add(this.todayTab);
             this.Controls.Add(this.label5);
             this.Name = "SearchScreen";
-            this.Size = new System.Drawing.Size(500, 375);
+            this.Size = new System.Drawing.Size(333, 492);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,8 +139,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label forecastLabel;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label forecastTab;
+        private System.Windows.Forms.Label todayTab;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label searchTabLabel;
         private System.Windows.Forms.TextBox cityInput;

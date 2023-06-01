@@ -19,7 +19,7 @@ namespace XMLWeather
 
         private void searchTabLabel_Click(object sender, EventArgs e)
         {
-
+            //todayTab.Parent = label5.Parent = forecastTab.Parent = backImage; // fix text transparencies
         }
 
         private void label3_Click(object sender, EventArgs e)
